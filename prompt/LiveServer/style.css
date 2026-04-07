@@ -1,0 +1,16 @@
+body{
+    font-family: 'Times New Roman', Times, serif /*fonte do texto*/;
+    background-color: rgb(68, 0, 90);
+    text-align: center /*centralizando*/;
+    margin-top: 50px /*adiciona espaço de 50px no topo da pagina*/;
+color: rgb(0, 0, 0);
+}
+/*define o estilo da caixa central */
+.caixa{
+    background-color: rgb(185, 158, 1); /* cor na caixa*/
+    padding: 20px; /* espaço interno da caixa*/
+    width: 300px; /*largura fixa de 300px*/
+    margin: auto; /* centraliza a caixa*/
+    border-radius: 77px;
+color: rgb(0, 0, 0);
+}
