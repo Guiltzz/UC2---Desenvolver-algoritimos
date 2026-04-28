@@ -9,3 +9,4 @@ console.log(ossos)
 console.log(bolinhas)
 console.log(feliz)
 console.log(triste)
+

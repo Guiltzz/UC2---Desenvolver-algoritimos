@@ -56,6 +56,7 @@ console.log(verificar)
 console.log(substituir.length)
 */
 
+/*
 let heroi1 = "  Naruto"
 let heroi2 = "  Deku"
 
@@ -71,3 +72,71 @@ console.log(minuscula)
 console.log(maiscula)
 console.log(substituir)
 console.log(verificar)
+*/
+
+/*
+const seriesBoas = ["Breaking Bad","B99"]
+const temBreakingBad = seriesBoas.includes("Breaking Bad")
+const temGOT = seriesBoas.includes("GOT")
+
+console.log("Na array seriesBoas, tem Breaking Bad", temBreakingBad)
+console.log("Na array seriesBoas, tem Got", temGOT)
+*/
+
+/*
+const pokemonsCap= ["Pikachu","Charmander","Bulbasaur","Squirtle"]
+
+const verificar = pokemonsCap.includes("Pikachu")
+const verificar2 = pokemonsCap.includes("Meowth")
+
+console.log(verificar)
+console.log(verificar2)
+*/
+
+/*
+const ingredientes = ["Fermento","Farinha","Ovo","Açucar","Cacau em po","Leite","Sal","Granulado","Leite condensado","Morango","Leite em pó","Manteiga"]
+const  baseBolo = ["Fermento","Farinha","Ovo","Açucar","Sal","Leite"]
+const recheio1 = ["Brigadeiro"]
+const recheio2 = ["Morango"] 
+const recheio3 = ["Brigadeiro de Leite em pó"]
+const boloMontado = [baseBolo, recheio1,baseBolo,recheio1,recheio2,recheio3]
+console.log(boloMontado)
+*/
+
+/*
+const compras= ["Arroz","Feijão","Macarrao"]
+
+compras.push("Sal")
+
+console.log(compras)
+
+*/
+
+/*
+let inventario =[]
+inventario.push("Espada,Escudo")
+console.log(inventario)
+*/
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Propriedade ou Metodo unshift() : adiciona
+
+/*
+const cor = ["Vermelho, Azul"];
+cor.unshift ("Verde");
+console.log(cor);
+
+*/
+
+/*
+const marca = ["marca1,marca2,marca3"]
+marca.unshift("Nokia")
+console.log(marca)
+*/
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Metodo shift(): Remove
+
+let frutas = ["Maça","Banana","LARANJA"]
+frutas.shift()
+console.log(frutas)
